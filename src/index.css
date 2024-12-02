@@ -59,3 +59,15 @@ footer {
     align-items: center;
 
 }
+
+.xmark {
+    color: red;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 2rem;
+}
+
+.card-container {
+    position: relative;
+}
