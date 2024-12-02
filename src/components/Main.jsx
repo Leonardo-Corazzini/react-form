@@ -2,8 +2,19 @@ import Card from "./Card/Card"
 import posts from "../posts"
 
 function Main() {
+    function onSubmit(event) {
+        event.preventDefault()
+        console.log('sto inserendo un nuovo post')
+    }
+
     return (
         <main>
+            <div className="container">
+                <form onSubmit={onSubmit} action="" className="form">
+                    <input type="text" />
+                    <input type="submit" value="add" />
+                </form>
+            </div>
             <div className="container">
                 <div className="row">
                     {
