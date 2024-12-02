@@ -4,7 +4,7 @@ import style from "./Card.module.css"
 const placeHolderImage = "https://placehold.co/600x400"
 
 
-function Card({ props }) {
+function Card({ props, }) {
     const { title, image, content, tags } = props;
 
 

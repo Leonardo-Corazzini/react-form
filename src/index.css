@@ -60,14 +60,22 @@ footer {
 
 }
 
-.xmark {
-    color: red;
-    position: absolute;
-    top: 10%;
-    right: 3%;
-    font-size: 2rem;
-}
-
 .card-container {
     position: relative;
+}
+
+.xmark {
+    color: rgb(206, 56, 56);
+    position: absolute;
+    top: 11%;
+    right: 3%;
+    font-size: 1.5rem;
+}
+
+.xwrench {
+    color: rgb(112, 139, 228);
+    position: absolute;
+    top: 63%;
+    right: 3%;
+    font-size: 1.2rem;
 }
