@@ -1,8 +1,8 @@
 import style from "./ModifyForm.module.css"
-export default function ModifyForm({ callback, callback2, title }) {
+export default function ModifyForm({ callback, callback2 }) {
     function sendModify(event) {
         event.preventDefault()
-        title && callback2()
+        callback2()
 
 
     }
